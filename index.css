@@ -8,13 +8,15 @@ body{
 h1{
     text-align: center;
     
-    background-color: blueviolet;
+    background: linear-gradient(to right,rgb(212, 145, 43),rgb(215, 105, 105) ,rgb(220, 59, 129));
     line-height: 150px;
     margin: 0%;
     height: 150px;
     
 }
 h2{
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.874);
     text-align: center;
     padding: 5%;
 }
@@ -24,7 +26,8 @@ p{
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 30px;
-    height: 75pc;
+    height: 55pc;
+    
     
 
 }
@@ -37,10 +40,10 @@ p{
 
 img{
     height: 250px;
-    width: 150px;
+    width: 250px;
     padding-left: 5px;
-    padding-right: 15px;
-    padding-top: 50px;
+    padding-right: 40px;
+    padding-top: 80px;
    
 }
 
@@ -50,6 +53,8 @@ img{
     
 }
 ul{
+    font-size: xx-large;
+    border: 5px pink solid;
     background-color: yellow;
     height: 100%;
     width: 150px;
@@ -65,7 +70,8 @@ ul{
         background-color:rgb(255, 246, 246)
     }
    img{
-       
+       padding-left: 150px;
+
       
    }
 
@@ -79,9 +85,14 @@ ul{
     justify-content: center;
     }
     
-    
+    p{
+        height: 100%;
+    }
 }
 @media screen and(min-width=481px) and(max-width:769px) {
-    
+    p{
+        font-size: x-small;
+    }
+
     
 }
