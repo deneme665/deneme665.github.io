@@ -1,13 +1,13 @@
 body{
     margin: 0;
-    background: linear-gradient(to right,rgb(212, 145, 43),rgb(215, 105, 105) ,rgb(220, 59, 129));
+    s
 }
 #header{
     position:sticky;
 }
 h1{
     text-align: center;
-    
+    color: white;
     background: linear-gradient(to right,rgb(212, 145, 43),rgb(215, 105, 105) ,rgb(220, 59, 129));
     line-height: 150px;
     margin: 0%;
@@ -32,6 +32,23 @@ p{
     
 
 }
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+    a:visited {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    }
+    a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+    }
+    a:active {
+    background-color: rgb(255, 0, 0);
+    }
+    
 #menü{
    
     justify-content: space-around;
@@ -44,8 +61,11 @@ img{
     width: 300px;
     padding-left: 5px;
     padding-right: 40px;
-    padding-top: 165px;
+    padding-top: 165px;s
    
+}
+img:nth-of-type(2){
+
 }
 
 #de{
@@ -55,25 +75,33 @@ img{
 }
 ul{
     font-size: xx-large;
-    border: 5px pink solid;
-    background-color: yellow;
+    border-top: 3px solid black;
+    background: linear-gradient(to top,rgb(255, 0, 0),rgb(220, 59, 129),rgb(220, 59, 129));
     height: 100%;
     width: 150px;
     right: 0;
     position:relative;
     margin: 0;
 }
+li{
+    
+}
+
 @media screen and (max-width: 480px)
 {
 
+    p{
+        font-size: xx-small;
+    }
     #de{
         flex-wrap: wrap;
         background-color:rgb(255, 246, 246)
     }
    img{
-       padding-left: 50px;
-        height: 100px;
-        width: 100px;
+       padding-left: 100px;
+        height: 150px;
+        width: 150px;
+        clear: both;
       
    }
 
@@ -91,11 +119,4 @@ ul{
         height: 100%;
         margin-bottom: 0px;
     }
-}
-@media screen and(min-width=481px) and(max-width:769px) {
-    p{
-        font-size: x-small;
-    }
-
-    
 }
