@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    s
+    background-color: black;
 }
 #header{
     position:sticky;
@@ -83,25 +83,28 @@ ul{
     position:relative;
     margin: 0;
 }
-li{
-    
-}
+
 
 @media screen and (max-width: 480px)
 {
 
     p{
+        
         font-size: xx-small;
+        
     }
     #de{
         flex-wrap: wrap;
         background-color:rgb(255, 246, 246)
     }
    img{
-       padding-left: 100px;
-        height: 150px;
-        width: 150px;
+        padding-top: 0;
+        padding-bottom: 500px;
+        padding-left: 150px;
+        height: 250px;
+        width: 250px;
         clear: both;
+        
       
    }
 
@@ -111,10 +114,17 @@ li{
         
         
     }
-    #menü{display: inline;
-    justify-content: center;
-    }
+    #menü{
     
+    
+    display:block
+    
+    
+    }
+    #menü a{
+       
+        margin-right: 22px;
+    }
     p{
         height: 100%;
         margin-bottom: 0px;
