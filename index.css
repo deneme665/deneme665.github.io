@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-color: black;
 }
+
 #header{
     position:sticky;
 }
@@ -15,7 +16,7 @@ h1{
     
 }
 h2{
-    font-size: xx-large;
+    font-size: 30pt;
     color: rgba(0, 0, 0, 0.874);
     text-align: center;
     padding: 5%;
@@ -64,9 +65,7 @@ img{
     padding-top: 165px;s
    
 }
-img:nth-of-type(2){
 
-}
 
 #de{
     display: flex;
@@ -75,7 +74,7 @@ img:nth-of-type(2){
 }
 ul{
     font-size: xx-large;
-    border-top: 3px solid black;
+
     background: linear-gradient(to top,rgb(255, 0, 0),rgb(220, 59, 129),rgb(220, 59, 129));
     height: 100%;
     width: 150px;
@@ -89,9 +88,13 @@ ul{
 {
 
     p{
-        
+        padding-top: 0;
         font-size: xx-small;
+        padding-bottom: 10px;
         
+    }
+    h2{
+        padding-bottom: 0;
     }
     #de{
         flex-wrap: wrap;
@@ -101,7 +104,7 @@ ul{
         padding-top: 0;
         padding-bottom: 500px;
         padding-right: 0;
-        padding-left: 50px;
+        padding-left: 20px;
         height: 175px;
         width: 175px;
         clear: both;
