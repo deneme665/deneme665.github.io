@@ -100,7 +100,8 @@ ul{
    img{
         padding-top: 0;
         padding-bottom: 500px;
-        padding-left: 150px;
+        padding-right: 0;
+        padding-left: 100px;
         height: 250px;
         width: 250px;
         clear: both;
